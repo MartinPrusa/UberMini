@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4632905B24EAB10D00D7D83C /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4632905A24EAB10D00D7D83C /* CLLocation+Extension.swift */; };
+		4632905D24EABD8D00D7D83C /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4632905C24EABD8D00D7D83C /* String+Validation.swift */; };
+		4632905F24EAC88F00D7D83C /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4632905E24EAC88F00D7D83C /* MapRouter.swift */; };
+		46B38BA924E993A2002407BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BA824E993A2002407BE /* AppDelegate.swift */; };
+		46B38BAB24E993A2002407BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BAA24E993A2002407BE /* SceneDelegate.swift */; };
+		46B38BB224E993A3002407BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B38BB124E993A3002407BE /* Assets.xcassets */; };
+		46B38BB524E993A3002407BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B38BB324E993A3002407BE /* LaunchScreen.storyboard */; };
+		46B38BC024E993A3002407BE /* UberMiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BBF24E993A3002407BE /* UberMiniTests.swift */; };
+		46B38BCB24E993A3002407BE /* UberMiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BCA24E993A3002407BE /* UberMiniUITests.swift */; };
+		46B38BDF24E994EA002407BE /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BD924E994EA002407BE /* LoginPresenter.swift */; };
+		46B38BE024E994EA002407BE /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BDA24E994EA002407BE /* LoginWorker.swift */; };
+		46B38BE124E994EA002407BE /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BDB24E994EA002407BE /* LoginRouter.swift */; };
+		46B38BE224E994EA002407BE /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BDC24E994EA002407BE /* LoginModels.swift */; };
+		46B38BE324E994EA002407BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BDD24E994EA002407BE /* LoginViewController.swift */; };
+		46B38BE424E994EA002407BE /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BDE24E994EA002407BE /* LoginInteractor.swift */; };
+		46B38BE724E996F8002407BE /* TextFieldTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BE624E996F8002407BE /* TextFieldTableCell.swift */; };
+		46B38BEA24E9B3F1002407BE /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BE924E9B3F1002407BE /* ButtonTableViewCell.swift */; };
+		46B38BF224EA7D12002407BE /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BEC24EA7D12002407BE /* MapPresenter.swift */; };
+		46B38BF524EA7D12002407BE /* MapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BEF24EA7D12002407BE /* MapModels.swift */; };
+		46B38BF624EA7D12002407BE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BF024EA7D12002407BE /* MapViewController.swift */; };
+		46B38BF724EA7D12002407BE /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BF124EA7D12002407BE /* MapInteractor.swift */; };
+		46B38BFA24EAA12F002407BE /* UpdatableAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BF924EAA12F002407BE /* UpdatableAnnotation.swift */; };
+		46B38BFD24EAA3CA002407BE /* CLLocationCoordinate2D+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38BFC24EAA3CA002407BE /* CLLocationCoordinate2D+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46B38BBC24E993A3002407BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46B38B9D24E993A2002407BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B38BA424E993A2002407BE;
+			remoteInfo = UberMini;
+		};
+		46B38BC724E993A3002407BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46B38B9D24E993A2002407BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B38BA424E993A2002407BE;
+			remoteInfo = UberMini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4632905A24EAB10D00D7D83C /* CLLocation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		4632905C24EABD8D00D7D83C /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		4632905E24EAC88F00D7D83C /* MapRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		46B38BA524E993A2002407BE /* UberMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B38BA824E993A2002407BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46B38BAA24E993A2002407BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46B38BB124E993A3002407BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46B38BB424E993A3002407BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46B38BB624E993A3002407BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B38BBB24E993A3002407BE /* UberMiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberMiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B38BBF24E993A3002407BE /* UberMiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMiniTests.swift; sourceTree = "<group>"; };
+		46B38BC124E993A3002407BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B38BC624E993A3002407BE /* UberMiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberMiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B38BCA24E993A3002407BE /* UberMiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMiniUITests.swift; sourceTree = "<group>"; };
+		46B38BCC24E993A3002407BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B38BD924E994EA002407BE /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		46B38BDA24E994EA002407BE /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		46B38BDB24E994EA002407BE /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		46B38BDC24E994EA002407BE /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		46B38BDD24E994EA002407BE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		46B38BDE24E994EA002407BE /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		46B38BE624E996F8002407BE /* TextFieldTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableCell.swift; sourceTree = "<group>"; };
+		46B38BE824E9AA1B002407BE /* UberMini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UberMini.entitlements; sourceTree = "<group>"; };
+		46B38BE924E9B3F1002407BE /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		46B38BEC24EA7D12002407BE /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		46B38BEF24EA7D12002407BE /* MapModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModels.swift; sourceTree = "<group>"; };
+		46B38BF024EA7D12002407BE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		46B38BF124EA7D12002407BE /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		46B38BF924EAA12F002407BE /* UpdatableAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatableAnnotation.swift; sourceTree = "<group>"; };
+		46B38BFC24EAA3CA002407BE /* CLLocationCoordinate2D+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46B38BA224E993A2002407BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B38BB824E993A3002407BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B38BC324E993A3002407BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46B38B9C24E993A2002407BE = {
+			isa = PBXGroup;
+			children = (
+				46B38BA724E993A2002407BE /* UberMini */,
+				46B38BBE24E993A3002407BE /* UberMiniTests */,
+				46B38BC924E993A3002407BE /* UberMiniUITests */,
+				46B38BA624E993A2002407BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46B38BA624E993A2002407BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46B38BA524E993A2002407BE /* UberMini.app */,
+				46B38BBB24E993A3002407BE /* UberMiniTests.xctest */,
+				46B38BC624E993A3002407BE /* UberMiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46B38BA724E993A2002407BE /* UberMini */ = {
+			isa = PBXGroup;
+			children = (
+				46B38BFB24EAA3BC002407BE /* Extensions */,
+				46B38BE824E9AA1B002407BE /* UberMini.entitlements */,
+				46B38BEB24EA7CB3002407BE /* Map */,
+				46B38BD824E994D8002407BE /* Login */,
+				46B38BA824E993A2002407BE /* AppDelegate.swift */,
+				46B38BAA24E993A2002407BE /* SceneDelegate.swift */,
+				46B38BB124E993A3002407BE /* Assets.xcassets */,
+				46B38BB324E993A3002407BE /* LaunchScreen.storyboard */,
+				46B38BB624E993A3002407BE /* Info.plist */,
+			);
+			path = UberMini;
+			sourceTree = "<group>";
+		};
+		46B38BBE24E993A3002407BE /* UberMiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				46B38BBF24E993A3002407BE /* UberMiniTests.swift */,
+				46B38BC124E993A3002407BE /* Info.plist */,
+			);
+			path = UberMiniTests;
+			sourceTree = "<group>";
+		};
+		46B38BC924E993A3002407BE /* UberMiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46B38BCA24E993A3002407BE /* UberMiniUITests.swift */,
+				46B38BCC24E993A3002407BE /* Info.plist */,
+			);
+			path = UberMiniUITests;
+			sourceTree = "<group>";
+		};
+		46B38BD824E994D8002407BE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				46B38BE524E996CC002407BE /* Cells */,
+				46B38BD924E994EA002407BE /* LoginPresenter.swift */,
+				46B38BDA24E994EA002407BE /* LoginWorker.swift */,
+				46B38BDB24E994EA002407BE /* LoginRouter.swift */,
+				46B38BDC24E994EA002407BE /* LoginModels.swift */,
+				46B38BDD24E994EA002407BE /* LoginViewController.swift */,
+				46B38BDE24E994EA002407BE /* LoginInteractor.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		46B38BE524E996CC002407BE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				46B38BE624E996F8002407BE /* TextFieldTableCell.swift */,
+				46B38BE924E9B3F1002407BE /* ButtonTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		46B38BEB24EA7CB3002407BE /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				46B38BF824EAA106002407BE /* UpdatableAnnotation */,
+				4632905E24EAC88F00D7D83C /* MapRouter.swift */,
+				46B38BEC24EA7D12002407BE /* MapPresenter.swift */,
+				46B38BEF24EA7D12002407BE /* MapModels.swift */,
+				46B38BF024EA7D12002407BE /* MapViewController.swift */,
+				46B38BF124EA7D12002407BE /* MapInteractor.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		46B38BF824EAA106002407BE /* UpdatableAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				46B38BF924EAA12F002407BE /* UpdatableAnnotation.swift */,
+			);
+			path = UpdatableAnnotation;
+			sourceTree = "<group>";
+		};
+		46B38BFB24EAA3BC002407BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46B38BFC24EAA3CA002407BE /* CLLocationCoordinate2D+Extensions.swift */,
+				4632905A24EAB10D00D7D83C /* CLLocation+Extension.swift */,
+				4632905C24EABD8D00D7D83C /* String+Validation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46B38BA424E993A2002407BE /* UberMini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B38BCF24E993A3002407BE /* Build configuration list for PBXNativeTarget "UberMini" */;
+			buildPhases = (
+				46B38BA124E993A2002407BE /* Sources */,
+				46B38BA224E993A2002407BE /* Frameworks */,
+				46B38BA324E993A2002407BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberMini;
+			productName = UberMini;
+			productReference = 46B38BA524E993A2002407BE /* UberMini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46B38BBA24E993A3002407BE /* UberMiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B38BD224E993A3002407BE /* Build configuration list for PBXNativeTarget "UberMiniTests" */;
+			buildPhases = (
+				46B38BB724E993A3002407BE /* Sources */,
+				46B38BB824E993A3002407BE /* Frameworks */,
+				46B38BB924E993A3002407BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B38BBD24E993A3002407BE /* PBXTargetDependency */,
+			);
+			name = UberMiniTests;
+			productName = UberMiniTests;
+			productReference = 46B38BBB24E993A3002407BE /* UberMiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46B38BC524E993A3002407BE /* UberMiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B38BD524E993A3002407BE /* Build configuration list for PBXNativeTarget "UberMiniUITests" */;
+			buildPhases = (
+				46B38BC224E993A3002407BE /* Sources */,
+				46B38BC324E993A3002407BE /* Frameworks */,
+				46B38BC424E993A3002407BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B38BC824E993A3002407BE /* PBXTargetDependency */,
+			);
+			name = UberMiniUITests;
+			productName = UberMiniUITests;
+			productReference = 46B38BC624E993A3002407BE /* UberMiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46B38B9D24E993A2002407BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					46B38BA424E993A2002407BE = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					46B38BBA24E993A3002407BE = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 46B38BA424E993A2002407BE;
+					};
+					46B38BC524E993A3002407BE = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 46B38BA424E993A2002407BE;
+					};
+				};
+			};
+			buildConfigurationList = 46B38BA024E993A2002407BE /* Build configuration list for PBXProject "UberMini" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46B38B9C24E993A2002407BE;
+			productRefGroup = 46B38BA624E993A2002407BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46B38BA424E993A2002407BE /* UberMini */,
+				46B38BBA24E993A3002407BE /* UberMiniTests */,
+				46B38BC524E993A3002407BE /* UberMiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46B38BA324E993A2002407BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B38BB524E993A3002407BE /* LaunchScreen.storyboard in Resources */,
+				46B38BB224E993A3002407BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B38BB924E993A3002407BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B38BC424E993A3002407BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46B38BA124E993A2002407BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B38BFD24EAA3CA002407BE /* CLLocationCoordinate2D+Extensions.swift in Sources */,
+				46B38BE324E994EA002407BE /* LoginViewController.swift in Sources */,
+				46B38BF524EA7D12002407BE /* MapModels.swift in Sources */,
+				46B38BE724E996F8002407BE /* TextFieldTableCell.swift in Sources */,
+				46B38BDF24E994EA002407BE /* LoginPresenter.swift in Sources */,
+				46B38BF224EA7D12002407BE /* MapPresenter.swift in Sources */,
+				46B38BF724EA7D12002407BE /* MapInteractor.swift in Sources */,
+				4632905F24EAC88F00D7D83C /* MapRouter.swift in Sources */,
+				46B38BA924E993A2002407BE /* AppDelegate.swift in Sources */,
+				46B38BFA24EAA12F002407BE /* UpdatableAnnotation.swift in Sources */,
+				4632905D24EABD8D00D7D83C /* String+Validation.swift in Sources */,
+				4632905B24EAB10D00D7D83C /* CLLocation+Extension.swift in Sources */,
+				46B38BAB24E993A2002407BE /* SceneDelegate.swift in Sources */,
+				46B38BE424E994EA002407BE /* LoginInteractor.swift in Sources */,
+				46B38BE224E994EA002407BE /* LoginModels.swift in Sources */,
+				46B38BEA24E9B3F1002407BE /* ButtonTableViewCell.swift in Sources */,
+				46B38BE124E994EA002407BE /* LoginRouter.swift in Sources */,
+				46B38BF624EA7D12002407BE /* MapViewController.swift in Sources */,
+				46B38BE024E994EA002407BE /* LoginWorker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B38BB724E993A3002407BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B38BC024E993A3002407BE /* UberMiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B38BC224E993A3002407BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B38BCB24E993A3002407BE /* UberMiniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46B38BBD24E993A3002407BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46B38BA424E993A2002407BE /* UberMini */;
+			targetProxy = 46B38BBC24E993A3002407BE /* PBXContainerItemProxy */;
+		};
+		46B38BC824E993A3002407BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46B38BA424E993A2002407BE /* UberMini */;
+			targetProxy = 46B38BC724E993A3002407BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46B38BB324E993A3002407BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B38BB424E993A3002407BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46B38BCD24E993A3002407BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46B38BCE24E993A3002407BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46B38BD024E993A3002407BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UberMini/UberMini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9DZWJK37Q;
+				INFOPLIST_FILE = UberMini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinprusa.UberMini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		46B38BD124E993A3002407BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UberMini/UberMini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9DZWJK37Q;
+				INFOPLIST_FILE = UberMini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinprusa.UberMini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		46B38BD324E993A3002407BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9DZWJK37Q;
+				INFOPLIST_FILE = UberMiniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinprusa.UberMiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberMini.app/UberMini";
+			};
+			name = Debug;
+		};
+		46B38BD424E993A3002407BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9DZWJK37Q;
+				INFOPLIST_FILE = UberMiniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinprusa.UberMiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberMini.app/UberMini";
+			};
+			name = Release;
+		};
+		46B38BD624E993A3002407BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9DZWJK37Q;
+				INFOPLIST_FILE = UberMiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinprusa.UberMiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UberMini;
+			};
+			name = Debug;
+		};
+		46B38BD724E993A3002407BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9DZWJK37Q;
+				INFOPLIST_FILE = UberMiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinprusa.UberMiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UberMini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46B38BA024E993A2002407BE /* Build configuration list for PBXProject "UberMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B38BCD24E993A3002407BE /* Debug */,
+				46B38BCE24E993A3002407BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B38BCF24E993A3002407BE /* Build configuration list for PBXNativeTarget "UberMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B38BD024E993A3002407BE /* Debug */,
+				46B38BD124E993A3002407BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B38BD224E993A3002407BE /* Build configuration list for PBXNativeTarget "UberMiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B38BD324E993A3002407BE /* Debug */,
+				46B38BD424E993A3002407BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B38BD524E993A3002407BE /* Build configuration list for PBXNativeTarget "UberMiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B38BD624E993A3002407BE /* Debug */,
+				46B38BD724E993A3002407BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46B38B9D24E993A2002407BE /* Project object */;
+}
