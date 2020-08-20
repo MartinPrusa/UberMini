@@ -21,7 +21,6 @@ final class MapViewController: UIViewController, MapDisplayLogic {
     private var map = MKMapView()
     private var usernameLabel = UILabel()
     private var streetLabel = UILabel()
-    private var locationManager = CLLocationManager()
 
     // MARK: - Object lifecycle
 
@@ -63,17 +62,14 @@ final class MapViewController: UIViewController, MapDisplayLogic {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.startUpdatingLocation()
+        LocationManager.shared.delegate = self
 
         streetLabel.text = "Unknown"
     }
 
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        locationManager.stopUpdatingLocation()
+        LocationManager.shared.delegate = nil
     }
 
     private func setupMap() {
@@ -166,7 +162,7 @@ extension MapViewController: MKMapViewDelegate {
     }
 }
 
-extension MapViewController: CLLocationManagerDelegate {
+extension MapViewController: LocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         locations.last?.streetName(completionBlock: { stretName in
             self.streetLabel.text = stretName

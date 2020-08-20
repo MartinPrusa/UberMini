@@ -59,7 +59,7 @@ final class LoginInteractor: LoginBusinessLogic, LoginDataStore {
     }
 
     private func evaluateForm(models: [LoginViewModel]) {
-        let response = worker.evaluateForm(dataModel: dataModel)
+        let response = worker.fakeEvaluateForm(dataModel: dataModel)
         presenter.present(response: response, viewModels: models)
     }
 }

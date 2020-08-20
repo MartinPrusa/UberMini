@@ -22,4 +22,13 @@ final class LoginWorker {
         let response = Login.ResponseEvaluate(username: dataModel.username, email: dataModel.email, password: dataModel.password, usernameError: usernameError, emailError: emailError, passwordError: passwordError)
         return response
     }
+
+    func fakeEvaluateForm(dataModel: LoginDataModel) -> Login.ResponseEvaluate {
+        let usernameError: String? = nil
+        let emailError: String? = nil
+        let passwordError: String? = nil
+
+        let response = Login.ResponseEvaluate(username: dataModel.username, email: dataModel.email, password: dataModel.password, usernameError: usernameError, emailError: emailError, passwordError: passwordError)
+        return response
+    }
 }
